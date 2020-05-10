@@ -1,65 +1,48 @@
-body {
-  line-height: 30px;
+body{
+    margin: 15px;
+    line-height: 30px;
+}
+#header {
+    background-color: #4CAF50;
+    width: 100%;
+    height: 100px; 
+    font-family: sans-serif;
+    color: white;
 }
 
-.container {
+#sidebar{
+    background-color: orange;
+    width: 25%;
+    height: 1000px;
+    float: left;
 }
 
-.header {
-  background-color: limegreen;
-  color: white;
-  padding: 15px;
-  width: 100%;
+#menu-list{
+
 }
 
-.bookmark_zone {
-  float: left;
-  width: 25%;
+.menu-item{
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
 }
 
-.content_zone {
-  float: left;
-}
-.footer {
-    background-color: darkgray;
-    position: relative;
-  }
-
-.header,
-.story_item,
-.footer {
-  border-radius: 4px;
+.menu-item:hover{
+    background-color: #4CAF50;
 }
 
-.title {
-  padding: 10px;
-  color: crimson;
-  text-align: center;
-  font-weight: bold;
-  font-family: sans-serif;
+#content{
+    background-color:blueviolet;
+    width: 75%;
+    height: 1000px;
+    float: left;
 }
-
-.main_content {
-  position: absolute;
+#footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    clear: both;
 }
-
-.story_list {
-}
-
-.story_item:hover {
-  background-color: azure;
-}
-
-.story_item:first-child {
-  background-color: limegreen;
-}
-
-.story_item {
-  background-color: darkgray;
-  border: 1px, solid, black;
-  list-style-type: none;
-  cursor: pointer;
-  margin: 2px;
-}
-
 
